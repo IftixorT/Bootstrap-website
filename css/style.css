@@ -1,0 +1,220 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url('../img/image1.jpg');
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url('../img/image2.jpg');
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url('../img/image3.jpg');
+  background-size: cover;
+}
+
+
+
+
+
+
+#bg-box{
+  background-image: url(../img/lights.jpg);
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+.dark-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+#what-we-do{
+position: relative;
+background-image: url(../img/media.jpg);
+background-attachment: fixed;
+min-height: 200px;
+position: relative;
+}
+#main-footer{
+  background-color: #000;
+  color: #fff;
+}
+
+.about-banner{
+  background-image: url(../img/image1.jpg);
+  background-attachment: fixed;
+}
+.about-img{
+  margin-top: -500px;
+  margin-left: 550px;
+}
+.rasm{
+  width: 150px;
+}
+
+#rere a:hover{
+  color: white;
+}
+
+.loader{
+  width: 100%;
+  height: 100vh;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #05a84e;
+  z-index: 99999;
+}
+
+.loader-1{
+  width: 10%;
+  height: 20%;
+  display: block;
+  border: 2px solid transparent;
+  border-left: 2px solid #fff;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  
+}
+.loader-4{
+  width:10%;
+  height: 20%;
+  display: block;
+  border: 2px solid transparent;
+  border-right: 2px solid #fff;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  
+}
+
+.loader-2{
+  width: 8%;
+  height: 14%;
+  display: block;
+  border: 2px solid transparent;
+  border-left: 2px solid #fff;
+  position: absolute;
+  top: 43%;
+  left: 46%;
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-delay: 3;
+}
+.loader-5{
+  width: 8%;
+  height: 14%;
+  display: block;
+  border: 2px solid transparent;
+  border-right: 2px solid #fff;
+  position: absolute;
+  top: 43%;
+  left: 46%;
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+ animation-delay: 3;
+}
+
+.loader-3{
+  width: 6%;
+  height: 10%;
+  display: block;
+  border: 2px solid transparent;
+  border-left: 2px solid #fff;
+  position: absolute;
+  top: 45%;
+  left: 47%;
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.loader-6{
+  width: 6%;
+  height: 10%;
+  display: block;
+  border: 2px solid transparent;
+  border-right: 2px solid #fff;
+  position: absolute;
+  top: 45%;
+  left: 47%;
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.loader-7{
+  width: 2%;
+  height: 4%;
+  display: block;
+  border: 2px solid transparent;
+  border-left: 2px solid #fff;
+  position: absolute;
+  top: 48%;
+  left: 49%;
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.loader-8{
+  width: 2%;
+  height: 4%;
+  display: block;
+  border: 2px solid transparent;
+  border-right: 2px solid #fff;
+  position: absolute;
+  top: 48%;
+  left: 49%;
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
